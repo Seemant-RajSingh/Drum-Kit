@@ -1,6 +1,6 @@
 
 
-//Detecting Clicks
+//Detecting clicks
 var numOfButtons = document.querySelectorAll(".drum").length;
 for(var i=0; i<numOfButtons; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click",function (){
